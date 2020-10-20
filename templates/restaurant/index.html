@@ -1,0 +1,17 @@
+{%extends 'restaurant/base.html'%}
+
+
+
+
+
+
+
+
+   {% block headerpage %}
+   <div class="page-header">
+       <h3><a href="/">Jerry's Blog</a></h3>
+       {% if user.is_authenticated %}
+       <br>Hello, {{user.username|default:'Guest'}} !
+       {% endif %}
+   </div>
+    {% endblock %}
