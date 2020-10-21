@@ -40,7 +40,7 @@ def Ipsum(request):
 
 def Iplocation(request):
     url = "https://rapidapi.p.rapidapi.com/WebAI/WFIPLocation"
-    querystring = {"lng": "en", "addr": "82.200.89.143"}
+    querystring = {"lng": "fr", "addr": "82.200.89.143"}
     headers = {
         'x-rapidapi-host': "ip-location3.p.rapidapi.com",
         'x-rapidapi-key': "28ee4a2d1cmsh22d5c5e7e120dbep186fffjsn5cad0e3a4596"
